@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/colorAccent"
     android:orientation="vertical">
 
     <ImageView
@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="157dp"
         android:layout_marginTop="50dp"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@drawable/sol" />
 
     <TextView
         android:id="@+id/tempRT"
@@ -20,6 +20,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="20º"
+        android:textColor="@color/white"
         android:textSize="70sp"
         android:textStyle="bold" />
 
@@ -30,6 +31,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="São José dos Campos, SP"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -40,6 +42,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="Ensolarado"
+        android:textColor="@color/white"
         android:textStyle="bold" />
 
     <TextView
@@ -48,6 +51,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="UV: 11"
+        android:textColor="@color/white"
         android:textStyle="bold" />
 
     <TextView
@@ -57,14 +61,15 @@
         android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="Seg, 10:00"
+        android:textColor="@color/white"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="185dp"
-        android:layout_height="145dp"
+        android:layout_width="430dp"
+        android:layout_height="169dp"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        app:srcCompat="@android:drawable/btn_dropdown" />
+        app:srcCompat="@drawable/city" />
 
 </LinearLayout>
