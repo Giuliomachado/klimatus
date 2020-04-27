@@ -32,7 +32,7 @@
         android:gravity="center"
         android:text="São José dos Campos, SP"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <TextView
@@ -43,6 +43,7 @@
         android:gravity="center"
         android:text="Ensolarado"
         android:textColor="@color/white"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
@@ -52,6 +53,7 @@
         android:gravity="center"
         android:text="UV: 11"
         android:textColor="@color/white"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
@@ -66,10 +68,10 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="430dp"
-        android:layout_height="169dp"
+        android:layout_width="wrap_content"
+        android:layout_height="132dp"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        app:srcCompat="@drawable/city" />
+        app:srcCompat="@drawable/app_klimatus_logo" />
 
 </LinearLayout>
