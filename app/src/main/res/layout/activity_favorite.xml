@@ -9,7 +9,7 @@
     tools:context=".FavoriteActivity">
 
     <include
-        layout="@layout/header"
+        layout="@layout/headerfav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

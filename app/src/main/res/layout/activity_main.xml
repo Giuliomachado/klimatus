@@ -20,12 +20,12 @@
             <include
                 layout="@layout/header"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="76dp" />
 
             <include
                 layout="@layout/fragment_welcome"
                 android:layout_width="match_parent"
-                android:layout_height="746dp" />
+                android:layout_height="541dp" />
 
             <include
                 layout="@layout/fragment_prevdia"

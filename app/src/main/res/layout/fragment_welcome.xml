@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sectionRT"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
@@ -9,7 +10,7 @@
     <ImageView
         android:id="@+id/iconRT"
         android:layout_width="match_parent"
-        android:layout_height="157dp"
+        android:layout_height="102dp"
         android:layout_marginTop="50dp"
         app:srcCompat="@drawable/sol" />
 
@@ -36,7 +37,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/condRT"
+        android:id="@+id/slugRT"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -47,17 +48,17 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/uvRT"
+        android:id="@+id/humidityRT"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="UV: 11"
+        android:text="Umidade: 64%"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/updRT"
+        android:id="@+id/updateRT"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -69,9 +70,8 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
-        android:layout_height="132dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        app:srcCompat="@drawable/app_klimatus_logo" />
+        android:layout_height="116dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/cityshadow" />
 
 </LinearLayout>
